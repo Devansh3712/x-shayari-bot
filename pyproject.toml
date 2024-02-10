@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "x-shayari-bot"
+version = "0.1.0"
+description = ""
+authors = ["Devansh Singh <devanshamity@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic-settings = "^2.1.0"
+tweepy = "^4.14.0"
+bs4 = "^0.0.2"
+lxml = "^5.1.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
