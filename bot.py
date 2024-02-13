@@ -29,4 +29,4 @@ def format_tweet(content: tuple[str, str]) -> str:
 if __name__ == "__main__":
     result = scrape_todays_top_shayari()
     shayari = format_tweet(result)
-    client.create_tweet(text=format_tweet(shayari))
+    client.create_tweet(text=shayari)
